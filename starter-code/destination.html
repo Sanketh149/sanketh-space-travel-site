@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <div class="wraper destination">
+    <div class="header-container">
+      <header>
+        <div class="logo">
+          <img src="./assets/shared/logo.svg" alt="Website Logo">
+        </div>
+        <div class="mid-line"></div>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html" class="home-link-dest-page">
+                <div class="number">00</div>  
+                HOME
+              </a>
+            </li>
+            <li>
+              <a href="destination.html" class="destination-link-dest-page">
+                <div class="number">01</div>
+                DESTINATION
+              </a>
+            </li>
+            <li>
+              <a href="crew.html" class="crew-link-dest-page">
+                <div class="number">02</div>
+                CREW
+              </a>
+            </li>
+            <li>
+              <a href="technology.html" class="technology-link-dest-page">
+                <div class="number">03</div>
+                TECHNOLOGY
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <li class="line line-1"></li>
+          <li class="line line-2"></li>
+          <li class="line line-3"></li>
+        </div>
+      </header>
+    </div>
+    <main class="destination-grid">
+        <div class="title-cont">
+          <div class="number">01</div>
+          <div class="title">Pick your destination</div>
+        </div>
+          <div class="planet-cont">
+            <div class="planet-img-cont">
+  
+            </div>
+          </div>
+          <div class="planet-info-wrap">
+            <div class="planet-info-cont">
+              <ul>
+                <li class="moon active" value="0">Moon</li>
+                <li class="mars" value="1">Mars</li>
+                <li class="europa" value="2">Europa</li>
+                <li class="titan" value="3">Titan</li>
+              </ul>
+              <div class="planet-name">
+                <!--Planet Name H1-->
+              </div>
+              <p class="description"> </p>
+                <div class="distance-cont">
+                  <div class="total-dist-cont">
+                    <div class="total-dist">
+                      <h3>AVG. DISTANCE</h3>
+                      <p class="distance"></p>
+                    </div>
+                    <div class="total-dist-number">
+                      <h3>EST. TRAVEL TIME</h3>
+                      <p class="time"></p>
+                    </div>
+                  </div>
+  
+                </div>
+            </div>
+          </div>
+    </main>
+  </div>
+  <script src="./js/destination.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
